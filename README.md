@@ -29,3 +29,5 @@ git push -u origin main
 ```
 
 Edit `index.html` to update biography, publications, and links. Replace files in `assets/` to update the portrait.
+
+Profile icons are sourced from Simple Icons (CC0), Lucide (ISC), and Bootstrap Icons (MIT).
