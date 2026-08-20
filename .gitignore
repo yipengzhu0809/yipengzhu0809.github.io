@@ -1,0 +1,3 @@
+# Keep high-resolution thumbnail sources local; publish optimized derivatives.
+assets/thumb/*.png
+assets/thumb/*.gif
