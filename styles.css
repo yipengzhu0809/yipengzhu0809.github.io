@@ -117,13 +117,13 @@ nav a {
   height: auto;
   aspect-ratio: 3 / 4;
   -webkit-mask-image:
-    radial-gradient(ellipse 48% 43% at 54% 31%, #000 50%, rgba(0, 0, 0, 0.86) 68%, transparent 100%),
-    radial-gradient(ellipse 47% 44% at 46% 72%, #000 48%, rgba(0, 0, 0, 0.82) 68%, transparent 100%);
-  -webkit-mask-composite: source-over;
+    linear-gradient(to right, transparent, #000 9%, #000 91%, transparent),
+    linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent);
+  -webkit-mask-composite: source-in;
   mask-image:
-    radial-gradient(ellipse 48% 43% at 54% 31%, #000 50%, rgba(0, 0, 0, 0.86) 68%, transparent 100%),
-    radial-gradient(ellipse 47% 44% at 46% 72%, #000 48%, rgba(0, 0, 0, 0.82) 68%, transparent 100%);
-  mask-composite: add;
+    linear-gradient(to right, transparent, #000 9%, #000 91%, transparent),
+    linear-gradient(to bottom, transparent, #000 7%, #000 93%, transparent);
+  mask-composite: intersect;
   object-fit: cover;
 }
 
