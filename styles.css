@@ -175,8 +175,7 @@ h1 {
 
 .intro-links a,
 .publication-links a,
-.text-link,
-.email-link {
+.text-link {
   font-weight: 720;
 }
 
@@ -206,13 +205,11 @@ h1 {
   margin: 0 auto;
 }
 
-.section-about,
-.section-contact {
+.section-about {
   background: var(--white);
 }
 
-.about-grid,
-.contact-grid {
+.about-grid {
   display: grid;
   grid-template-columns: minmax(180px, 0.35fr) minmax(0, 1fr);
   gap: 72px;
@@ -329,17 +326,6 @@ h2 {
   font-size: 15px;
 }
 
-.section-contact {
-  border-top: 1px solid var(--line);
-}
-
-.email-link {
-  display: inline-block;
-  margin-top: 12px;
-  color: var(--accent);
-  font-size: 20px;
-}
-
 footer {
   display: flex;
   min-height: 84px;
@@ -403,8 +389,7 @@ footer a {
     padding: 72px 20px;
   }
 
-  .about-grid,
-  .contact-grid {
+  .about-grid {
     grid-template-columns: 1fr;
     gap: 32px;
   }
